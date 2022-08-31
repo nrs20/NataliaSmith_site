@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Natalia Smith| Software Developer</title>
+  </head>
+
+  <body>    <nav>
+      <h1>Natalia Smith</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/Resized_20200425_173825(1)-01 (1) (1) (1).jpeg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+              <!--       <div class="bio animate__animated animate__shakeX">-->
+ <!--animate__wobble-->
+
+              <!--       <div class="bio animate__animated animate__shakeX">-->
+ <!--animate__wobble-->
+      <h2></h2>
+      <div class="bio animate__animated animate__tada">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hi! I am a third year Computer Science major at the New Jersey Institute of Technology. I enjoy machine learning, backend development, and learning new techniques to solve any problem that comes my way.
+        </p>
+      </div>
+    </section>
+    <!-- More about -->
+    <section class="more-about">
+
+
+      <h2 style = "font-size:35px;">More About Me</h2>
+      <h2></h2>
+      <p style = "font-size:20px;">In the summer of 2022, I joined the McNair Summer Research Program.
+        With my team, I was able to develop a fake news detector web application that takes in a user's inputted text and, using a BERT machine learning model, returns a 0 if it is detected as fake and a 1 if real.
+        </p>
+      <p style = "font-size:20px;">This caught the eyes of the NJIT community, and <b><a href="https://news.njit.edu/computing-senior-makes-fake-tweets-detector-satire-checker-next">my work was featured in my college's newspaper!</a>
+        </b>
+
+</p>
+      <p style = "font-size:20px;">
+        I am also the Relations Chair for NJIT's <b>Google Developer Student Club</b>, where I work to bring opportunities to our student body, as well as organize workshops that lead to certifications for our members.
+      </p>
+<p style = "font-size:20px;"> I have been a <b>mentor</b> for computing students at NJIT and earned a mentoring excellence award.</p>
+    </section>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+           <img
+            src="assets/icons/python.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+            <img
+            src="assets/icons/java.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/cpp.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/cpicnew.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+<!--
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/cpicnew.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        -->
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/fakenewspic.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Fake News Detector</h3>
+          <p class="project-details">
+            Created a web application using Flask that allows a user to input text (preferably covid-related) that they wish to detect as real or fake, hit submit, and be shown whether a BERT machine learning model detected it as real or fake.
+          </p>
+          <a href="https://github.com/nrs20/Fake_News_Detection/blob/main/README.md" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/screenshotParser.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Parser</h3>
+          <p class="project-details">
+            This is a parser implemented in C++. The syntax definitions of a small programming language, called Pascal-Like Simple Language (PLSL), are given using EBNF notations.
+          </p>
+          <a href="https://github.com/nrs20/Parser" target="_blank" class="project-link">Check it Out</a>
+        <!--</div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+        <h3 class="project-title">Greeny Earth</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        -->
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+
+      <a href="https://www.linkedin.com/in/natalia-smith-aa7330219/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/nrs20" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">
+        <a href="#" target="_blank"
+          >Natalia Smith</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
