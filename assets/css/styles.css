@@ -80,7 +80,12 @@ nav a:hover {
   color: var(--secondary-color);
   border-bottom: 2px solid var(--secondary-color);
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 nav ul {
   display: flex;
   gap: 1.9rem;
